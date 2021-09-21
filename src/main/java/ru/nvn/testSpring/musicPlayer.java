@@ -5,8 +5,12 @@ public class musicPlayer
 		private Music music;
 
 
-		///IOc
+		///IoC
 		public musicPlayer(Music music){
 				this.music = music;
+		}
+
+		public void playMusic(){
+				System.out.println("--------plaing: = " + music.getSong());
 		}
 }
