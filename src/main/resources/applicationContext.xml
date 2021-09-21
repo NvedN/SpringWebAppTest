@@ -10,5 +10,10 @@
     <bean id="musicBean"
           class="ru.nvn.testSpring.rockMusic">
     </bean>
+    <bean
+        id="musicPlayer"
+        class="ru.nvn.testSpring.musicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
 
 </beans>
