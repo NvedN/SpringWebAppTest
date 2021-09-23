@@ -1,5 +1,8 @@
 package ru.nvn.testSpring;
 
+import org.springframework.stereotype.Component;
+
+@Component("someRockMusic")
 public class rockMusic implements Music
 {
 
