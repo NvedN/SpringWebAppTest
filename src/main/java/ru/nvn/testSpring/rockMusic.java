@@ -2,7 +2,7 @@ package ru.nvn.testSpring;
 
 import org.springframework.stereotype.Component;
 
-@Component("someRockMusic")
+//@Component("someRockMusic")
 public class rockMusic implements Music
 {
 
