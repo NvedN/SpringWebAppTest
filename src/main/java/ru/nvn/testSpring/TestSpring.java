@@ -17,7 +17,7 @@ public class TestSpring
 
 
 				classicalMusic classicalMusic1 = context.getBean("classicalMusic",classicalMusic.class);
-				classicalMusic classicalMugsic2 = context.getBean("classicalMusic",classicalMusic.class);
+				classicalMusic classicalMusic2 = context.getBean("classicalMusic",classicalMusic.class);
 				System.out.println(classicalMusic1 == classicalMusic2);
 
 				context.close();
